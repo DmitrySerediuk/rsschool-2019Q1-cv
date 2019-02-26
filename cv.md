@@ -10,17 +10,17 @@ My target is learn new technologies in practice, work on complex projects and st
 OOP, PHP, Python, MYSQL, JS, phantomjs, jquery, git, Yii, Bash, Linux<br/>
 ## 5. Code example:<br/>
 ```python
-	#!/usr/bin/python
-	import subprocess
-	import datetime
+#!/usr/bin/python
+import subprocess
+import datetime
 
-	"""
-		Check file zone and getting url with current zones
-		@param String 	lastUrl  	Last updated url
-		@param List	zones  	List of zones for getting data
-		@param String	resultDir  	Patch for output data
-		@param Dict	fileZoneHandles  	Dictionary with handles opened output files
-	"""
+"""
+	Check file zone and getting url with current zones
+	@param String 	lastUrl  	Last updated url
+	@param List	zones  	List of zones for getting data
+	@param String	resultDir  	Patch for output data
+	@param Dict	fileZoneHandles  	Dictionary with handles opened output files
+"""
 
 class chekingFilesZone:
 	"""
