@@ -1,14 +1,14 @@
 # Resume:
-##1. 	Name:<br/>
-		Dmitry Serediuk
-##2. 	Contacts:<br/>
+## 1. 	Name:<br/>
+		Dmitry Serediuk<br/>
+## 2. 	Contacts:<br/>
 		Email: [k0sm0s@tut.by](k0sm0s@tut.by)<br/>
 		Phone: +375295715440<br/>
-##3. Summary:<br/>
+## 3. Summary:<br/>
 		My target is learn new technologies in practice, work on complex projects and study from experienced colleagues.<br/>
-##4. Skill:<br/>
+## 4. Skill:<br/>
 		OOP, PHP, Python, MYSQL, JS, phantomjs, jquery, git, Yii, Bash, Linux<br/>
-##5. Code example:<br/>
+## 5. Code example:<br/>
     ```python
 		#!/usr/bin/python
 
@@ -89,78 +89,78 @@
 
 	```
 
-##6. Experience:<br/>
+## 6. Experience:<br/>
 		2007-2009.<br/>
-		###Freelance<br/>
+		### Freelance<br/>
 		[https://www.fl.ru/users/k0sm0s/](https://www.fl.ru/users/k0sm0s/)<br/>
 		Improving and creating small sites.<br/>
 		Tecnology: PHP, MYSQL, CSS, HTML<br/>
 
 		2009-2015.<br/>
-		###MFA and MFS<br/>
+		### MFA and MFS<br/>
 		Mass create sites for MFA and MFS. Automatic creation sites with used public CMS: wordpress, Shop-Script, OpenCart.<br/>
 		Tecnology: PHP, MYSQL, Smarty, CSS, HTML<br/>
 
 		2009-2019.<br/>
-		###System administration
+		### System administration
 		System administration >16 servers. Support uptime 24/7 work, config LAMP, VPN, update software, antiDDOS(iptables, fail2ban), backup. <br/>
 		Tecnology: CentOS, Debian, apache, MYSQL, BIND, python, cron, fail2ban, iptables, vnstat, rsync, wget, bash<br/>
 
 		2011-2011.<br/>
-		###Sites and parameters monitoring(Diploma):<br/>
+		### Sites and parameters monitoring(Diploma):<br/>
 		Basic functionality of domaintools.com. Daily monitoring > 150 000 000 domains and >10 parameters for each domains : whois, DNS, IP, TCY, PR, index, title, server answer, cms, keywords etc. <br/>
 		Tecnology: CentOS, mysql, PHP, multithreading, cron, curl, wget, raid<br/>
 
 		2011-2012<br/>
 		2017-2019<br/>
-		###Mining cryptocurrency
+		### Mining cryptocurrency
 		Creating farms based on GPU. Build, configure, optimize and support 24x7 performance. Use mining pools API to track statistics.<br/>
 		Tecnology: Ethash, Bitcoin, php, mysql<br/>
 
 		2012-2014<br/>
-		###Forex. Trade, investment:<br/>
+		### Forex. Trade, investment:<br/>
 		Forex trading. Testing various strategies, writing small helpers in mql5.<br/>
 		Tecnology: mql5<br/>
 
 		2013-2015<br/>
-		###Creating an analog web.archive.org.<br/>
+		### Creating an analog web.archive.org.<br/>
 		Creating a robot for indexing ru sites. ~4 000 000 sites occupied ~ 60 Tb of information in the archive.<br/>
 		Tecnology: CentOS, mysql, PHP, JS, multithreading, cron, curl, wget, raid, rsync<br/>
 
 		2015-2019<br/>
-		###Domaing (.RU).<br/>
+		### Domaing (.RU).<br/>
 		Interception of released domain names in the zone RU. Creating software for analysis, selection and registration of domain names.<br/>
 		Tecnology: CentOS, mysql, PHP, Python, JS, JQuery, multithreading, cron, curl.<br/>
 
 		2016-2016<br/>
-		###Screenshot service.<br/>
+		### Screenshot service.<br/>
 		Create full-page screenshots of sites.<br/>
 		Tecnology: CentOS, mysql, PHP, phantomJS, multithreading, cron<br/>
 
 		2018-2019<br/>
-		###Learning python<br/>
+		### Learning python<br/>
 		Independent study of the new programming language python. <br/>
 		Tecnology: python<br/>
 
 		2018-2019<br/>
-		###Domayning (.CO.UK)<br/>
+		### Domayning (.CO.UK)<br/>
 		Updating and adaptation of software to intercept .CO.UK domain name. Creating a universal software that is quickly configured to any domain zone.<br/>
 		Tecnology: CentOS, mysql, PHP, Python, JQuery, multithreading, cron, curl.<br/>
 
 		2018-2019<br/>
-		###Creating a tool to get the file zone of any domain zone.<br/>
+		### Creating a tool to get the file zone of any domain zone.<br/>
 		Software based on the work of the dictionary allows you to collect at the moment> 70% of active domain names in any domain zone.<br/>
 		Tecnology: CentOS, bash, PHP, Python, mysql, cron, curl<br/>
 
 		2019-2019<br/>
-		###Small projects on Arduino<br/>
+		### Small projects on Arduino<br/>
 		Automated temperature control system in a private house.<br/>
 		Tecnology: Arduino, php, mysql<br/>
 
-##7. Education:<br/>
+## 7. Education:<br/>
 		2006-2011 	Belarusian State University of Informatics and Radioelectronics.<br/>
 		2011-2014: 	Streamline: from Elemetary to Intermidiate level courses.<br/>
 		2018-2019: 	[https://www.hackerrank.com/k0sm0s](https://www.hackerrank.com/k0sm0s)<br/>
 	
-##8. English level:<br/>
+## 8. English level:<br/>
 	Current level - intermediate.<br/>
