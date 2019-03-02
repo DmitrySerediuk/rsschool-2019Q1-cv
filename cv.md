@@ -2,9 +2,8 @@
 ## 1. 	Name:
 Dmitry Serediuk<br/>
 ## 2. 	Contacts:
-- Email: [k0sm0s@tut.by](mailto:k0sm0s@tut.by)<br/>
-- Phone: +375295715440<br/>
-
+Email: [k0sm0s@tut.by](mailto:k0sm0s@tut.by)<br/>
+Phone: +375295715440<br/>
 ## 3. Summary:
 My target is learn new technologies in practice, work on complex projects and study from experienced colleagues.<br/>
 ## 4. Skill:
