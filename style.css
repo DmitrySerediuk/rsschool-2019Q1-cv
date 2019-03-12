@@ -1,0 +1,66 @@
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+    border-left:2px solid #666;
+    border-right:2px solid #666;
+
+}
+
+h1 {
+  font-size: 18px;
+}
+
+ol {
+  counter-reset:li;
+  padding:0;
+  list-style:none;
+}
+
+ol > li{
+  position:relative;
+  margin:0 0 6px 2em;
+  padding:4px 8px;
+  font-size: 14px;
+  font-weight: 400;
+  border-top:2px solid #666;
+
+}
+
+ol > li:before {
+  content:counter(li);
+  counter-increment:li;
+  position:absolute;
+  top:20px;
+  left:-2em;
+  width:2em;
+  padding:4px 0;
+  border-top:2px solid #666;
+  color:#fff;
+  background:#666;
+  font-weight:bold;
+  font-family:"Helvetica Neue", Arial, sans-serif;
+  text-align:center;
+}
+
+p {
+  line-height: 6px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background:#bdbdbd;
+}
+
+main {
+    display: flex;
+    justify-content: left;
+    background:#f6f6f6;
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+    background:#bdbdbd;
+}
+

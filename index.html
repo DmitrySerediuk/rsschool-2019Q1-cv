@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resume Dmity Serediuk: full stack developer.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Resume Dmity Serediuk: full stack developer.</h1></header>
+    <main>
+      <ol>
+        <li>
+          <h2>Name:</h2>
+          <p>Dmitry Serediuk</p>
+        </li>
+        <li>
+            <h2>Contacts:</h2>
+            <p>Email: <a href="mailto:k0sm0s@tut.by"> k0sm0s@tut.by</a></p>
+            <p>Phone: <a href="tel:+375295715440"> +375295715440</a></p>
+        </li>
+        <li>
+          <h2>Summary:</h2>
+          <p>My target is learn new technologies in practice, work on complex projects and study from experienced colleagues.</p>
+        </li>
+        <li>
+            <h2>Skill:</h2>
+            <p>OOP, PHP, Python, MYSQL, JS, phantomjs, jquery, git, Yii, Bash, Linux</p>
+        </li>
+        <li>
+            <h2>Code example:</h2>
+            <pre>
+                #!/usr/bin/python
+                import subprocess
+                import datetime
+
+                """
+                  Check file zone and getting url with current zones
+                  @param String 	lastUrl  	Last updated url
+                  @param List	zones  	List of zones for getting data
+                  @param String	resultDir  	Patch for output data
+                  @param Dict	fileZoneHandles  	Dictionary with handles opened output files
+                """
+
+                class chekingFilesZone:
+                  """
+                  Init setting.
+                    @return void
+                  """
+                  def __init__(self,settings,fileIn):
+                    self.zones = settings['zones']
+                    self.resultDir = settings['resultDir']
+                    self.fileMassOpened(self.zones)
+                    self.fileIn = fileIn
+                    self.lastUrl = ""
+
+                  """
+                      Mass open output files
+                      @param List listZones List of zones for checking in input files
+                      @return void
+                  """
+                  def fileMassOpened(self,listZones):
+                    self.fileZoneHandles = {}
+                    for zone in listZones:
+                      self.fileZoneHandles[zone] = open(self.resultDir+zone+".out","a")
+
+                  """
+                    Open handle output zone file
+                      @param String zone Zone for open output file
+                      @return void
+                  """
+                  def fileOpenByZone(self,zone):
+                    if zone not in self.fileZoneHandles:
+                      self.fileZoneHandles[zone] = open(self.resultDir+zone+".out","a")
+
+                  """
+                    Mass close output file zone
+                      @return void
+                  """
+                  def fileMassClose(self):
+                    for key in self.fileZoneHandles:
+                      self.fileZoneHandles[key].close()
+
+                  """
+                    Parse input file and writing all urls into output files
+                      @return void
+                  """
+                  def parseFileInAllZones(self):
+                    fileIn = open(self.fileIn, 'r')
+
+                    for line in fileIn:
+                      urlTmp = line.split(')')[0]
+
+                      if self.lastUrl != urlTmp:
+                      self.lastUrl = urlTmp
+                      listPartUrl = urlTmp.split(',')
+                      zone = listPartUrl[0]
+
+                      url = ".".join(listPartUrl[::-1])
+
+                      self.fileOpenByZone(zone)
+                      self.fileZoneHandles[zone].write(url+"\n")
+
+
+                    self.fileMassClose()
+                    fileIn.close()
+            </pre>
+        </li>
+        <li>
+            <h2>Experience:</h2>
+            <h4>2007-2009: Freelance</h4>
+            <p><a href="https://www.fl.ru/users/k0sm0s/">https://www.fl.ru/users/k0sm0s/</a></p>
+            <p>Improving and creating small sites.</p>
+            <p>Tecnology: PHP, MYSQL, CSS, HTML</p>
+
+          <h4>2009-2015: MFA and MFS</h4>
+          <p>Mass create sites for MFA and MFS. Automatic creation sites with used public CMS: wordpress, Shop-Script, OpenCart.</p>
+          <p>Tecnology: PHP, MYSQL, Smarty, CSS, HTML</p>
+
+          <h4>2009-2019: System administration</h4>
+          <p>System administration &gt;16 servers. Support uptime 24/7 work, config LAMP, VPN, update software, antiDDOS(iptables, fail2ban), backup.</p>
+          <p>Tecnology: CentOS, Debian, apache, MYSQL, BIND, python, cron, fail2ban, iptables, vnstat, rsync, wget, bash</p>
+
+          <h4>2011-2011: Sites and parameters monitoring(Diploma):</h4>
+          <p>Basic functionality of <a href="domaintools.com">domaintools.com</a>. Daily monitoring &gt; 150 000 000 domains and &gt;10 parameters for each domains : whois, DNS, IP, TCY, PR etc. </p>
+          <p>Tecnology: CentOS, mysql, PHP, multithreading, cron, curl, wget, raid</p>
+
+          <h4>2011-2012 and 2017-2019 Mining cryptocurrency</h4>
+          <p>Creating farms based on GPU. Build, configure, optimize and support 24x7 performance. Use mining pools API to track statistics.</p>
+          <p>Tecnology: Ethash, Bitcoin, php, mysql</p>
+
+          <h4 id="2012-2014-forex-trade-investment">2012-2014: Forex. Trade, investment:</h4>
+          <p>Forex trading. Testing various strategies, writing small helpers in mql5.</p>
+          <p>Tecnology: mql5</p>
+
+          <h4>2013-2015: Creating an analog <a href="web.archive.org">web.archive.org</a>.</h4>
+          <p>Creating a robot for indexing ru sites. ~4 000 000 sites occupied ~ 60 Tb of information in the archive.</p>
+          <p>Tecnology: CentOS, mysql, PHP, JS, multithreading, cron, curl, wget, raid, rsync</p>
+
+          <h4>2015-2019: Domaing (.RU).</h4>
+          <p>Interception of released domain names in the zone RU. Creating software for analysis, selection and registration of domain names.</p>
+          <p>Tecnology: CentOS, mysql, PHP, Python, JS, JQuery, multithreading, cron, curl.</p>
+
+          <h4>2016-2016: Screenshot service.</h4>
+          <p>Create full-page screenshots of sites.</p>
+          <p>Tecnology: CentOS, mysql, PHP, phantomJS, multithreading, cron</p></p>
+
+          <h4>2018-2019: Learning python</h4>
+          <p>Self study python. </p>
+          <p>Tecnology: python</p>
+
+          <h4>2018-2019: Domayning (.CO.UK)</h4>
+          <p>Updating and adaptation of software to intercept .CO.UK domain name. Creating a universal software that is quickly configured to any domain zone.</p>
+          <p>Tecnology: CentOS, mysql, PHP, Python, JQuery, multithreading, cron, curl.</p>
+
+          <h4>2018-2019: Creating a tool to get the file zone of any domain zone.</h4>
+          <p>Software based on the work of the dictionary allows you to collect at the moment&gt; 70% of active domain names in any domain zone.</p>
+          <p>Tecnology: CentOS, bash, PHP, Python, mysql, cron, curl</p>
+
+          <h4>2019-2019: Small projects on Arduino</h4>
+          <p>Automated temperature control system in a private house.</p>
+          <p>Tecnology: Arduino, php, mysql</p>
+        </li>
+        <li>
+            <h2>Education:</h2>
+            <ul>
+              <li>2006-2011: 	Belarusian State University of Informatics and Radioelectronics.</li>
+              <li>2011-2014: 	Streamline: from Elemetary to Intermidiate level courses.</li>
+              <li>2018-2019: 	<a href="https://www.hackerrank.com/k0sm0s">https://www.hackerrank.com/k0sm0s</a></li>
+            </ul>
+        </li>
+        <li>
+            <h2>English level:</h2>
+            <p>Intermediate.</p>
+        </li>
+      </ol>
+    </main>
+    <footer> @ Dmitry Serediuk 2019. Last updated: 12.03.2019</footer>
+</body>
+</html>
