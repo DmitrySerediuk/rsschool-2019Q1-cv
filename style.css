@@ -19,7 +19,7 @@ ol {
   list-style:none;
 }
 
-ol > li{
+ol > li {
   position:relative;
   margin:0 0 6px 2em;
   padding:4px 8px;
@@ -76,7 +76,7 @@ footer {
   overflow: hidden;
 }
 
-.foto > img{
+.foto > img {
   margin-left: -10px;
 }
 
