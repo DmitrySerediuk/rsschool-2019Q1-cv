@@ -51,7 +51,8 @@ p {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    align-items: center;
     background:#bdbdbd;
 }
 
@@ -64,6 +65,18 @@ main {
 footer {
     display: flex;
     justify-content: left;
+    padding: 10px; 30px;
     background:#bdbdbd;
+}
+
+.foto {
+  width: 180px;
+  height: 180px;
+  margin: 10px 30px;
+  overflow: hidden;
+}
+
+.foto > img{
+  margin-left: -10px;
 }
 
